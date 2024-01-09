@@ -61,8 +61,9 @@ console.log(JSON.stringify(myJson));
 JSON.parse 코드 실행이 실패하고, 프로그램이 종료된다.
 → 사용자 경험에 안 좋다.
 ⇒ JSON.parse 할때 발생하는 오류는 예외로 발생하기 때문에 , try - catch 구문으로 잡을 수 있다.
-✅
-다시 말하면 JSON.parse 할때는 항상 try-catch 로 오류상황에 대비해야 한다.
+
+
+✅다시 말하면 JSON.parse 할때는 항상 try-catch 로 오류상황에 대비해야 한다.
 
 ```
 try {
